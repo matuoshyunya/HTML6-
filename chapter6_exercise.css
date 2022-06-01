@@ -1,0 +1,40 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-visual {
+ width: 100%; /* 横幅いっぱい */
+ height: 200px; /* 高さ200px */
+ background-image: url(img/box1.jpg );
+ 
+}
+.box2 {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ200px */
+  background-image: url(img/box2.jpg );
+}
+
+.box3 {
+  width: 100%; /* 横幅いっぱい */ 
+  height: 200px; /* 高さ200px */
+  background-image: url(img/box3.jpg );
+}
+
+.box4 {
+  width: 100%; /* 横幅いっぱい */ 
+  height: 200px; /* 高さ200px */
+  background-image: url(img/box4.jpg );
+}
+
+.main-visual-content {
+  width 100%; /* 横幅いっぱい */
+  height 1000px; /* 高さいっぱい */
+}
